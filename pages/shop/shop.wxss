@@ -1,0 +1,14 @@
+/* pages/shop/shop.wxss */
+.user-bg {height: 250rpx; padding: 20rpx; margin-bottom: 20rpx; background: pink; display: flex; align-items: center;}
+.user-bg image {width: 112rpx; height: 112rpx; margin-right: 35rpx; border-radius: 50%; border: 1rpx solid #999;}
+.user-info view {font-size: 34rpx; line-height:46rpx; color: #fff;}
+.login-btn {width: 160rpx; height: 60rpx; font-size: 28rpx; text-align: center;line-height: 60rpx; background-color: #EAEAEA; border-radius: 30rpx;}
+.orders-nav {height: 150rpx; display: flex; margin-bottom: 20rpx; background-color: #fff; overflow: hidden;}
+.orders-nav>view {flex-basis: 25%; display: flex; flex-wrap: wrap; align-content: center; align-items: center; justify-content: center; font-size: 28rpx;}
+.orders-nav>view image {width: 50rpx; height: 50rpx; margin-bottom: 13rpx;}
+.orders-nav>view view {width: 100%; text-align: center; font-size: 32rpx; line-height: 32rpx; font-family: '黑体'}
+.list-item {height: 100rpx;}
+.list-item .item-words {display: flex; align-items: center;}
+.list-item .item-words image {width: 53rpx; height: 45rpx; margin: 0 10rpx;}
+.item-words .tips {margin-left: 0 15rpx 0 10rpx; color: #999; font-size: 26rpx;}
+.log-out {height: 120rpx; text-align: center; font-size: 38rpx; font-weight: 600; line-height: 120rpx; background-color: #fff; border-top: 1px solid #eaeaea}

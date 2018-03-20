@@ -1,0 +1,52 @@
+<!--pages/address/list-address/list-address.wxml-->
+<view class='content'>
+<!--定位-->
+  <view class='get-location'>
+    <view>
+      <image class='left' src='../../../imgs/location-icon.png'></image>
+      <view>点击定位当前地点</view>
+    </view>
+    <image class='right' src='../../../imgs/jt.png'></image>
+  </view>
+  <!--地址列表-->
+  <view class='address-list-wrap'>
+    <view class='address-list-title'>
+      <image src='../../../imgs/location2-icon.png'></image>
+      <view>我的配送地址</view>
+    </view>
+    <view class='address-list'>
+      <view class='address-info'>
+        <view class='address-title'>
+          <text>{{}}姓名</text>
+          <text class='phone-wrap'>{{}}13812345678</text>
+          <view class='address-type'>{{}}公司</view>
+        </view>
+        <view class='address-detail'>
+          江苏省苏州市工业园区江苏省苏州市工业园区
+        </view>
+      </view>
+      <view class='address-handle'>
+        <view class='fl'>
+          <view class='radio-icon'>
+            <image wx:if="{{address_default}} "src='../../../imgs/right-icon.png'></image>
+          </view>
+          <text>设为默认</text>
+        </view>
+        <view class='fr'>
+          <view>
+            <image src='../../../imgs/edit-icon.png'></image>
+            编辑
+          </view>
+          <view>
+            <image src='../../../imgs/trash-icon.png'></image>
+            删除
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <navigator class='toAdd' url='../add-address/add-address'>
+    <image src='../../../imgs/jia-icon.png'></image>
+    <text>新增收获地址</text>
+  </navigator>
+</view>

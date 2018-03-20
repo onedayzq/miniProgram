@@ -1,0 +1,82 @@
+<!--pages/shop/shop.wxml-->
+<view>
+  <view class='user-bg'>
+    <image src='{{user_head}}'></image>
+    <view class='user-info' hidden="true">
+      <view>用户名</view>
+      <view>18888888888</view>
+    </view>
+    <navigator class='login-btn' url='../login/login'>
+      登录/注册
+    </navigator>
+  </view>
+  <!--订单分类  -->
+  <view class='orders-nav'>
+    <view>
+      <image src='../../imgs/dfk.png'></image>
+      <view>待付款</view>
+    </view>
+    <view>
+      <image src='../../imgs/dsh.png'></image>
+      <view>待收获</view>
+    </view>
+    <view>
+      <image src='../../imgs/dpj.png'></image>
+      <view>待评价</view>
+    </view>
+    <view>
+      <image src='../../imgs/qbdd.png'></image>
+      <view>全部订单</view>
+    </view>
+  </view>
+  <!--列表  -->
+  <view class='list-items'>
+    <navigator url='../address/list-address/list-address' class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/shdz.png'></image>
+        <text>收货地址</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+    <navigator class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/yhq.png'></image>
+        <text>优惠券</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+    <navigator class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/wdgz.png'></image>
+        <text>我的关注</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+    <navigator class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/wsxd.png'></image>
+        <text>我是小店</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+    <navigator class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/wskf.png'></image>
+        <text>在线客服</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+    <navigator class='list-item' hover-class="none">
+      <view class='item-words'>
+        <image src='../../imgs/kfdh.png'></image>
+        <text>客服电话：400-675-7150</text>
+        <text class='tips'>(服务时间：24小时)</text>
+      </view>
+      <view class='item-right'></view>
+    </navigator>
+  </view>
+  <!--登出  -->
+  <view class='log-out'>
+    退出登录
+  </view>
+</view>

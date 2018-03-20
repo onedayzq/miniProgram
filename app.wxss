@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.fl {float: left}
+.fr {float: right}
+page {background-color: #eee; font-family: '黑体'}
+/*列表*/
+.list-items {width: 100%; margin-top: 20rpx; background: #fff; font-size: 32rpx; line-height: 80rpx; overflow: hidden; position: relative;}
+.list-items::before {content: " "; position: absolute; left: 0; top: 0; right: 0; height: 1rpx; background-color: #e5e5e5;}
+.list-items::after {content: " "; position: absolute; left: 0; bottom: 0; right: 0; height: 1rpx; background-color: #e5e5e5;}
+.list-item {width: 100%; padding: 10rpx 20rpx; position: relative; display: flex; align-items: center; box-sizing: border-box;}
+.list-item::before {content: ""; position: absolute; top: 0; right: 0; height: 1rpx; background-color: #e5e5e5; left: 100rpx;}
+.item-words {flex: 1;}
+.item-right {padding-right: 13px; text-align: right; color: #999; position: relative;}
+.list-item .item-right::after {content: " "; display: inline-block; height: 20rpx; width: 20rpx; border-width: 2px 2px 0 0;     border-color: #C8C8CD; border-style: solid; position: absolute; top: 50%; margin-top: -10rpx; right: 2rpx; -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);}

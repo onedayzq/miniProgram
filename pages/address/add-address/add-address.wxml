@@ -1,0 +1,22 @@
+<!--pages/address/add-address/add-address.wxml-->
+<form>
+  <view>
+    <view>
+      <text>姓名：</text>
+      <input placeholder='请输入收件人姓名'></input>
+    </view>
+    <view>
+      <view>先生</view>
+      <view>女士</view>
+    </view>
+  </view>
+  <view>
+    <text>电话：</text>
+    <input placeholder='请输入手机号码'></input>
+  </view>
+  <view>
+    <view>收货地址：</view>
+    <view></view>
+    <view></view>
+  </view>
+</form>

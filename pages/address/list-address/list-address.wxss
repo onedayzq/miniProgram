@@ -1,0 +1,23 @@
+/* pages/address/list-address/list-address.wxss */
+.get-location {height: 100rpx; padding: 0 10rpx; display: flex; align-items: center; justify-content: space-between; font: 31rpx; color: #009944; background-color: #fff;}
+.get-location>view {height: 100%; display: flex; align-items: center;}
+.get-location .left {width: 34rpx; height: 35rpx; margin-right: 15rpx;}
+.get-location .right {width: 18rpx; height: 29rpx;}
+.address-list-title {height: 55rpx; padding: 0 20rpx; display: flex; align-items: center; font-size: 24rpx; color: #9a9a9a; background-color: #efeff4; border-top: 1rpx solid #c8c7cc;}
+.address-list-title image {width: 28rpx; height: 30rpx; margin-right: 20rpx;}
+.address-list {background-color: #fff; border-top:1rpx solid #c8c7cc; border-bottom: 1rpx solid #c8c7cc;}
+.address-info {height: 100rpx; padding: 10rpx 20rpx; border-bottom: 1rpx solid #c8c7cc;}
+.address-title {height: 28rpx; display: flex; align-items: center; font-size: 26rpx; line-height: 28rpx;}
+.phone-wrap {margin: 0 20rpx 0 30rpx;}
+.address-type {display: inline-block; width: 48rpx; height: 24rpx; font-size: 20rpx; line-height: 24rpx; text-align: center; color: #009944; border: 1rpx solid #009944;}
+.address-detail {height: 80rpx; padding: 10rpx 0; display: flex; align-items: center; font-size: 24rpx; line-height: 30rpx; overflow: hidden; box-sizing: border-box}
+.address-handle {height: 64rpx; padding: 0 20rpx; font-size: 22rpx; color: #676666;}
+.address-handle>view {height: 100%; display: flex; align-items: center;}
+.radio-icon {width: 24rpx; height: 24rpx; margin-right: 5rpx; border: 1rpx solid #c8c7cc; border-radius: 50%;}
+.radio-icon image {width: 30rpx; height: 21rpx;}
+.address-handle .fr image {margin-right: 10rpx;}
+.address-handle .fr>view:nth-child(1) image {width: 22rpx; height: 21rpx;}
+.address-handle .fr>view:nth-child(2) image {width: 19rpx; height: 23rpx;}
+.address-handle .fr view {display: flex; align-items: center; margin-left: 30rpx;}
+.toAdd {width: 95%; height: 70rpx; font-size: 30rpx; display: flex; align-items: center; justify-content: center; border: 2rpx solid #009944; border-radius: 35rpx; position: fixed; bottom: 20rpx; left: 2.5%; box-sizing: border-box;}
+.toAdd image {width: 31rpx; height: 31rpx; margin-right: 10rpx; display: inline-block; vertical-align: middle;}
